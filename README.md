@@ -1,1 +1,3 @@
-PET PROJECT /n Python+PostgreSQL
+PET PROJECT
+
+Python+PostgreSQL
