@@ -45,3 +45,10 @@ jobs:
     steps:
     - name: testing
       run : systemctl status docker
+
+  test4:
+    runs-on: ubuntu-latest
+    needs: test2
+    steps:
+    - name: testing
+      run : systemctl status docker
