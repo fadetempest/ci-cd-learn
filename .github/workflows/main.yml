@@ -25,7 +25,7 @@ jobs:
       run : ls -lah
 
     - name: Add git files
-      run : action/checkout@v1
+      uses: action/checkout@v1
 
     - name: Check files again
       run : ls -lah
