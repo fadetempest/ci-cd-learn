@@ -1,0 +1,22 @@
+# TEST actions
+
+name: check_actions
+
+on: 
+  push:
+    branches:
+    - master
+
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Printing Hello World
+      run : echo "Hello world!"
+
+    - name: Zip version
+      run : zip --version
+
+    - name: Docker status
+      run : systemctl status docker
