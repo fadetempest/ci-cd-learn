@@ -15,4 +15,4 @@ PASSWORD = user password;
 TOKEN = Your telegram-bot token
 
 
-(It's using default PostgreSQL port wich is 5432)
+(Using default PostgreSQL port 5432)
