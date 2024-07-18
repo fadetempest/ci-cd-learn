@@ -28,7 +28,7 @@ def send_welcome(message):
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
     connect_to_db(message.from_user.id, message.text, message.from_user.username)
-    bot.reply_to(message, message.text)
+    bot.reply_to(message, f"{message.text} from {message.from_user.id}")
 
 
 bot.infinity_polling()
